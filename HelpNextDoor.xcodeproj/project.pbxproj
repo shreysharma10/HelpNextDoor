@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351095CA281A333900C393E0 /* JobTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351095C9281A333900C393E0 /* JobTableViewController.swift */; };
+		351095CE281B1CE500C393E0 /* Jobs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351095CD281B1CE500C393E0 /* Jobs.swift */; };
+		354DD51B281CB1C500CDD1EE /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354DD51A281CB1C500CDD1EE /* DetailTableViewCell.swift */; };
+		354DD51D281CC69400CDD1EE /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354DD51C281CC69400CDD1EE /* UIViewController+alert.swift */; };
 		35E1C3C72818560800C76776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1C3C62818560800C76776 /* AppDelegate.swift */; };
 		35E1C3C92818560800C76776 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1C3C82818560800C76776 /* SceneDelegate.swift */; };
-		35E1C3CB2818560800C76776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1C3CA2818560800C76776 /* ViewController.swift */; };
+		35E1C3CB2818560800C76776 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1C3CA2818560800C76776 /* LoginViewController.swift */; };
 		35E1C3CE2818560800C76776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E1C3CC2818560800C76776 /* Main.storyboard */; };
 		35E1C3D02818560E00C76776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E1C3CF2818560E00C76776 /* Assets.xcassets */; };
 		35E1C3D32818560E00C76776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E1C3D12818560E00C76776 /* LaunchScreen.storyboard */; };
+		35E1C3DB28188BD000C76776 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35E1C3DA28188BD000C76776 /* GoogleService-Info.plist */; };
+		35E1C3DD28188D3400C76776 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1C3DC28188D3400C76776 /* APIKeys.swift */; };
+		35E1C3DF2818929400C76776 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1C3DE2818929400C76776 /* SelectionViewController.swift */; };
+		35E1C3E128189FBD00C76776 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1C3E028189FBD00C76776 /* ListViewController.swift */; };
+		35E1C3E32818CA7C00C76776 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E1C3E22818CA7C00C76776 /* Job.swift */; };
+		35E5A9F4281E0F2800B90A30 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E5A9F3281E0F2800B90A30 /* UserViewController.swift */; };
+		35E5AA182820131F00B90A30 /* UserTableViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E5AA172820131F00B90A30 /* UserTableViewTableViewCell.swift */; };
+		35E5AA1A2820535100B90A30 /* HelpUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E5AA192820534F00B90A30 /* HelpUser.swift */; };
+		35E5AA1C282053DD00B90A30 /* HelpUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E5AA1B282053DD00B90A30 /* HelpUsers.swift */; };
+		35E5AA1E28205F2700B90A30 /* UIBarButtonItem+Hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E5AA1D28205F2600B90A30 /* UIBarButtonItem+Hide.swift */; };
+		62504355596F3173B9E6F7C3 /* Pods_HelpNextDoor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6406ADF29371FD94BE974C8 /* Pods_HelpNextDoor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351095C9281A333900C393E0 /* JobTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewController.swift; sourceTree = "<group>"; };
+		351095CD281B1CE500C393E0 /* Jobs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jobs.swift; sourceTree = "<group>"; };
+		354DD51A281CB1C500CDD1EE /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		354DD51C281CC69400CDD1EE /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		35E1C3C32818560800C76776 /* HelpNextDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpNextDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35E1C3C62818560800C76776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35E1C3C82818560800C76776 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		35E1C3CA2818560800C76776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35E1C3CA2818560800C76776 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		35E1C3CD2818560800C76776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35E1C3CF2818560E00C76776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E1C3D22818560E00C76776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35E1C3D42818560E00C76776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E1C3DA28188BD000C76776 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		35E1C3DC28188D3400C76776 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		35E1C3DE2818929400C76776 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		35E1C3E028189FBD00C76776 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		35E1C3E22818CA7C00C76776 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		35E5A9F3281E0F2800B90A30 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		35E5AA172820131F00B90A30 /* UserTableViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewTableViewCell.swift; sourceTree = "<group>"; };
+		35E5AA192820534F00B90A30 /* HelpUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpUser.swift; sourceTree = "<group>"; };
+		35E5AA1B282053DD00B90A30 /* HelpUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpUsers.swift; sourceTree = "<group>"; };
+		35E5AA1D28205F2600B90A30 /* UIBarButtonItem+Hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Hide.swift"; sourceTree = "<group>"; };
+		372C22FA5909921EC9F6ABEE /* Pods-HelpNextDoor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpNextDoor.release.xcconfig"; path = "Target Support Files/Pods-HelpNextDoor/Pods-HelpNextDoor.release.xcconfig"; sourceTree = "<group>"; };
+		78C378D72B4A967766CE0161 /* Pods-HelpNextDoor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpNextDoor.debug.xcconfig"; path = "Target Support Files/Pods-HelpNextDoor/Pods-HelpNextDoor.debug.xcconfig"; sourceTree = "<group>"; };
+		D6406ADF29371FD94BE974C8 /* Pods_HelpNextDoor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpNextDoor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62504355596F3173B9E6F7C3 /* Pods_HelpNextDoor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +75,8 @@
 			children = (
 				35E1C3C52818560800C76776 /* HelpNextDoor */,
 				35E1C3C42818560800C76776 /* Products */,
+				35E40C3C90030F24D4FBED5B /* Pods */,
+				FFA15868372A691937111BA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +93,44 @@
 			children = (
 				35E1C3C62818560800C76776 /* AppDelegate.swift */,
 				35E1C3C82818560800C76776 /* SceneDelegate.swift */,
-				35E1C3CA2818560800C76776 /* ViewController.swift */,
+				35E1C3E22818CA7C00C76776 /* Job.swift */,
+				351095CD281B1CE500C393E0 /* Jobs.swift */,
+				35E5AA192820534F00B90A30 /* HelpUser.swift */,
+				35E5AA1B282053DD00B90A30 /* HelpUsers.swift */,
+				35E1C3CA2818560800C76776 /* LoginViewController.swift */,
+				35E1C3DE2818929400C76776 /* SelectionViewController.swift */,
+				35E5A9F3281E0F2800B90A30 /* UserViewController.swift */,
+				35E1C3E028189FBD00C76776 /* ListViewController.swift */,
+				351095C9281A333900C393E0 /* JobTableViewController.swift */,
+				354DD51A281CB1C500CDD1EE /* DetailTableViewCell.swift */,
+				35E5AA172820131F00B90A30 /* UserTableViewTableViewCell.swift */,
+				35E1C3DC28188D3400C76776 /* APIKeys.swift */,
+				354DD51C281CC69400CDD1EE /* UIViewController+alert.swift */,
+				35E5AA1D28205F2600B90A30 /* UIBarButtonItem+Hide.swift */,
 				35E1C3CC2818560800C76776 /* Main.storyboard */,
 				35E1C3CF2818560E00C76776 /* Assets.xcassets */,
 				35E1C3D12818560E00C76776 /* LaunchScreen.storyboard */,
 				35E1C3D42818560E00C76776 /* Info.plist */,
+				35E1C3DA28188BD000C76776 /* GoogleService-Info.plist */,
 			);
 			path = HelpNextDoor;
+			sourceTree = "<group>";
+		};
+		35E40C3C90030F24D4FBED5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78C378D72B4A967766CE0161 /* Pods-HelpNextDoor.debug.xcconfig */,
+				372C22FA5909921EC9F6ABEE /* Pods-HelpNextDoor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFA15868372A691937111BA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6406ADF29371FD94BE974C8 /* Pods_HelpNextDoor.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 35E1C3D72818560E00C76776 /* Build configuration list for PBXNativeTarget "HelpNextDoor" */;
 			buildPhases = (
+				7F9DD5B0DBF1FFC06FC59CB0 /* [CP] Check Pods Manifest.lock */,
 				35E1C3BF2818560800C76776 /* Sources */,
 				35E1C3C02818560800C76776 /* Frameworks */,
 				35E1C3C12818560800C76776 /* Resources */,
+				927C8F68C1D5C914F6AD0A31 /* [CP] Embed Pods Frameworks */,
+				962BD34922965B93754A2693 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35E1C3D32818560E00C76776 /* LaunchScreen.storyboard in Resources */,
+				35E1C3DB28188BD000C76776 /* GoogleService-Info.plist in Resources */,
 				35E1C3D02818560E00C76776 /* Assets.xcassets in Resources */,
 				35E1C3CE2818560800C76776 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +203,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F9DD5B0DBF1FFC06FC59CB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelpNextDoor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		927C8F68C1D5C914F6AD0A31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelpNextDoor/Pods-HelpNextDoor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelpNextDoor/Pods-HelpNextDoor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpNextDoor/Pods-HelpNextDoor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962BD34922965B93754A2693 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelpNextDoor/Pods-HelpNextDoor-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelpNextDoor/Pods-HelpNextDoor-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelpNextDoor/Pods-HelpNextDoor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		35E1C3BF2818560800C76776 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E1C3CB2818560800C76776 /* ViewController.swift in Sources */,
+				35E1C3DF2818929400C76776 /* SelectionViewController.swift in Sources */,
+				35E1C3CB2818560800C76776 /* LoginViewController.swift in Sources */,
+				35E1C3E128189FBD00C76776 /* ListViewController.swift in Sources */,
+				35E5AA1C282053DD00B90A30 /* HelpUsers.swift in Sources */,
+				351095CE281B1CE500C393E0 /* Jobs.swift in Sources */,
+				35E5AA182820131F00B90A30 /* UserTableViewTableViewCell.swift in Sources */,
 				35E1C3C72818560800C76776 /* AppDelegate.swift in Sources */,
+				35E5AA1A2820535100B90A30 /* HelpUser.swift in Sources */,
+				35E5AA1E28205F2700B90A30 /* UIBarButtonItem+Hide.swift in Sources */,
+				35E1C3DD28188D3400C76776 /* APIKeys.swift in Sources */,
+				354DD51B281CB1C500CDD1EE /* DetailTableViewCell.swift in Sources */,
+				35E5A9F4281E0F2800B90A30 /* UserViewController.swift in Sources */,
+				354DD51D281CC69400CDD1EE /* UIViewController+alert.swift in Sources */,
 				35E1C3C92818560800C76776 /* SceneDelegate.swift in Sources */,
+				35E1C3E32818CA7C00C76776 /* Job.swift in Sources */,
+				351095CA281A333900C393E0 /* JobTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +424,7 @@
 		};
 		35E1C3D82818560E00C76776 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C378D72B4A967766CE0161 /* Pods-HelpNextDoor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +453,7 @@
 		};
 		35E1C3D92818560E00C76776 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372C22FA5909921EC9F6ABEE /* Pods-HelpNextDoor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
